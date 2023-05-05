@@ -15,10 +15,6 @@ if (button0 && sectionFirst) {
     })
 }
 
-
-
-
-
 let button = document.querySelector('.item2');
 let sectionTwo = document.querySelector('.skills');
 
@@ -50,5 +46,39 @@ function scrollTo(element) {
 if (button1 && sectionThree) {
     button1.addEventListener('click', () => {
         scrollTo(sectionThree);
+    })
+}
+
+let button2 = document.querySelector('.item4');
+let sectionFour = document.querySelector('.portfolio_desk-subName');
+
+function scrollTo(element) {
+    window.scroll({
+        left: 0,
+        top: element.offsetTop,
+        behavior: 'smooth',
+    })
+}
+
+if (button2 && sectionFour) {
+    button2.addEventListener('click', () => {
+        scrollTo(sectionFour);
+    })
+}
+
+let button3 = document.querySelector('.item5');
+let sectionFive = document.querySelector('.footer');
+
+function scrollTo(element) {
+    window.scroll({
+        left: 0,
+        top: element.offsetTop,
+        behavior: 'smooth',
+    })
+}
+
+if (button3 && sectionFive) {
+    button3.addEventListener('click', () => {
+        scrollTo(sectionFive);
     })
 }
