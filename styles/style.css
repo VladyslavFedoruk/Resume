@@ -949,7 +949,7 @@ body._lock {
   top: -114px;
   left: 90%;
   border: none;
-  background: url(./images/prev.svg);
+  background: url(../images/prev.svg);
   background-repeat: no-repeat;
   font-size: 0;
   cursor: pointer;
@@ -972,7 +972,7 @@ body._lock {
   top: -114px;
   left: 98%;
   border: none;
-  background: url(./images/next.svg);
+  background: url(../images/next.svg);
   background-repeat: no-repeat;
   font-size: 0;
   cursor: pointer;
