@@ -99,17 +99,18 @@ body._lock {
   text-transform: uppercase;
   display: flex;
   gap: 12px;
-  width: 215px;
+  width: 224px;
   height: 44px;
   background: #FFFFFF;
   border-radius: 6px;
   color: #131313;
-  padding: 10px 27px 10px 35px;
+  padding: 10px 27px 10px 27px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   fill: #FFFFFF;
+  justify-content: center;
 }
 .header_cv-file:hover {
   background: #979595;
