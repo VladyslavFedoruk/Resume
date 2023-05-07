@@ -9,3 +9,13 @@ if (iconMenu) {
         menuList.classList.toggle('_active3');
     });
 }
+
+// $('.menu_body').on("click", function () {
+//     $(".menu_body").toggleClass('.open');
+// });
+
+// $('.menu_body').on("click", function () {
+//     $(".menu_body").hide();
+//     document.body.classList.remove('_lock');
+//     menuList.classList.remove('_active3');
+// });
