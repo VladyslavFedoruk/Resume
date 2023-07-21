@@ -145,10 +145,12 @@ body._lock {
   background: #131313;
   min-height: 880px;
   margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 @media screen and (max-width: 1130px) {
   .hero {
     margin-bottom: 50px;
+    padding-bottom: 40px;
   }
 }
 .hero_content {
@@ -220,7 +222,7 @@ body._lock {
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  line-height: 32px;
+  line-height: 43px;
   text-transform: uppercase;
   color: #FFFFFF;
   margin-bottom: 8px;
@@ -1721,4 +1723,7 @@ body._lock {
   .menu_body._active3 {
     transform: translate(0px, 0px);
   }
+}
+.tailwind {
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
