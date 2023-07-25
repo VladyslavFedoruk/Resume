@@ -1625,7 +1625,48 @@ body._lock {
                 }
             }
 
-            &-item6:hover {
+            &-item7.active {
+                background: linear-gradient(90deg, #03A386 0.02%, rgba(3, 163, 134, 0) 121.82%);
+                transition: 3s;
+
+            }
+
+            &-item7 {
+                width: 448px !important;
+                height: 332px !important;
+                background: #131313;
+                border-radius: 8px;
+
+                @media screen and (max-width: 530px) {
+                    width: 290px !important;
+                }
+
+                .photo {
+                    width: 390px;
+                    height: 350px;
+                    overflow: hidden;
+
+                    @media screen and (max-width: 530px) {
+                        width: 250px;
+                        height: 207px;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column-reverse;
+                    }
+                }
+
+                img {
+                    width: 392px;
+                    height: 221px;
+                    transition: transform 0.25s;
+                }
+
+                .photo:hover img {
+                    transform: scale(1.1);
+                }
+            }
+
+            &-item7:hover {
                 background: linear-gradient(90deg, #03A386 0.02%, rgba(3, 163, 134, 0) 121.82%);
                 transition: 3s;
 
@@ -1680,6 +1721,15 @@ body._lock {
     }
 
     .item6 {
+        display: block;
+        padding: 20px 28px 0px !important;
+
+        @media screen and (max-width: 530px) {
+            padding: 20px 20px 0px !important;
+        }
+    }
+
+    .item7 {
         display: block;
         padding: 20px 28px 0px !important;
 

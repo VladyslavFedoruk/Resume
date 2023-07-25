@@ -1,7 +1,7 @@
 $('.portfolio_slider-list').slick({
     dots: true,
     infinite: true,
-    speed: 300,
+    speed: 200,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
