@@ -1671,8 +1671,54 @@ body._lock {
                 transition: 3s;
 
             }
-        }
 
+            &-item8.active {
+                background: linear-gradient(90deg, #03A386 0.02%, rgba(3, 163, 134, 0) 121.82%);
+                transition: 3s;
+
+            }
+
+            &-item8 {
+                width: 448px !important;
+                height: 332px !important;
+                background: #131313;
+                border-radius: 8px;
+
+                @media screen and (max-width: 530px) {
+                    width: 290px !important;
+                }
+
+                .photo {
+                    width: 390px;
+                    height: 350px;
+                    overflow: hidden;
+
+                    @media screen and (max-width: 530px) {
+                        width: 250px;
+                        height: 207px;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column-reverse;
+                    }
+                }
+
+                img {
+                    width: 392px;
+                    height: 221px;
+                    transition: transform 0.25s;
+                }
+
+                .photo:hover img {
+                    transform: scale(1.1);
+                }
+            }
+
+            &-item8:hover {
+                background: linear-gradient(90deg, #03A386 0.02%, rgba(3, 163, 134, 0) 121.82%);
+                transition: 3s;
+
+            }
+        }
     }
 
     .item1 {
@@ -1738,6 +1784,15 @@ body._lock {
         }
     }
 
+     .item8 {
+        display: block;
+        padding: 20px 28px 0px !important;
+
+        @media screen and (max-width: 530px) {
+            padding: 20px 20px 0px !important;
+        }
+    }
+
     .item-desk {
         padding: 28px;
 
@@ -1778,15 +1833,15 @@ body._lock {
         gap: 9px;
         position: absolute;
         top: 115%;
-        left: 45%;
+        left: 42%;
         margin-bottom: 100px;
 
         @media screen and (max-width: 1130px) {
-            left: 40%;
+            left: 33%;
         }
 
         @media screen and (max-width: 530px) {
-            left: 35%;
+            left: 24%;
         }
 
         button {

@@ -4,7 +4,7 @@ $('.portfolio_slider-list').slick({
     speed: 200,
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     centerMode: true,
     variableWidth: true,
     responsive: [{
